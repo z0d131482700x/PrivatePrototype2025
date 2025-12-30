@@ -21,14 +21,14 @@
 Production Ready: Battle-tested for demo and production deployment
 
 ## Security & Privacy
-✓ Zero-KYC registration (username + XMPP OTP)
-✓ End-to-end encryption (all messages/posts)
-✓ 3-layer onion routing (Tor-compatible)
-✓ Self-custodial Bitcoin wallets
-✓ No central metadata storage
-✓ Open-source & auditable
-✗ No email/phone collection
-✗ No IP logging
-✗ No central servers
+- ✓ Zero-KYC registration (username + XMPP OTP)
+- ✓ End-to-end encryption (all messages/posts)
+- ✓ 3-layer onion routing (Tor-compatible)
+- ✓ Self-custodial Bitcoin wallets
+- ✓ No central metadata storage
+- ✓ Open-source & auditable
+- ✗ No email/phone collection
+- ✗ No IP logging
+- ✗ No central servers
 
 ## coded by @z0d131482700x
