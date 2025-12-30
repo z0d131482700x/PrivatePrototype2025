@@ -1,0 +1,26 @@
+/* privateprototype2025/assets/css/chat.css */
+.message-bubble {
+    max-width: 70%;
+    padding: 12px 20px;
+    border-radius: 24px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.message-sent {
+    background: linear-gradient(135deg, var(--neon-green), #00CC66);
+    color: #000;
+    margin-left: auto;
+    border-bottom-right-radius: 8px;
+}
+.message-received {
+    background: var(--bg-secondary);
+    border-bottom-left-radius: 8px;
+}
+.e2ee-indicator {
+    position: absolute;
+    top: -8px; right: -8px;
+    width: 20px; height: 20px;
+    background: var(--neon-green);
+    border-radius: 50%;
+    border: 2px solid var(--bg-primary);
+}

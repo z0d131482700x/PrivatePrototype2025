@@ -1,0 +1,23 @@
+/* privateprototype2025/assets/css/instagram.css - PRODUCTION Instagram UI */
+.profile-header {
+    display: flex; align-items: center; gap: 20px; padding: 20px; border-bottom: 1px solid #333;
+}
+.profile-avatar {
+    width: 100px; height: 100px; background: linear-gradient(135deg, var(--neon-green), var(--neon-magenta));
+    border-radius: 50%; border: 3px solid #000; position: relative;
+}
+.story-ring {
+    position: absolute; inset: -4px; border: 4px solid transparent;
+    background: linear-gradient(45deg, var(--neon-green), var(--neon-magenta)) padding-box,
+                linear-gradient(45deg, var(--neon-green), var(--neon-magenta)) border-box;
+    border-radius: 50%;
+}
+.stats-row { display: flex; gap: 30px; margin: 20px 0; }
+.stat { text-align: center; }
+.stat-number { font-size: 28px; font-weight: 700; color: var(--neon-green); }
+.grid-overlay {
+    position: absolute; inset: 0; opacity: 0; transition: opacity 0.3s;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(0, 255, 136, 0.8); font-size: 24px;
+}
+.grid-item:hover .grid-overlay { opacity: 1; }

@@ -1,0 +1,15 @@
+/* privateprototype2025/assets/css/xmpp.css - PRODUCTION XMPP OTP */
+.xmpp-container {
+    max-width: 400px; margin: 0 auto; text-align: center; padding: 40px;
+}
+.otp-input {
+    width: 100%; height: 60px; font-size: 32px; text-align: center;
+    background: var(--bg-secondary); border: 2px solid #333; color: var(--neon-green);
+    border-radius: 12px; margin: 20px 0; font-family: monospace; letter-spacing: 8px;
+}
+.xmpp-status {
+    padding: 12px 20px; border-radius: 25px; margin: 15px 0; font-weight: 600;
+}
+.status-pending { background: rgba(255, 193, 7, 0.2); color: #FFC107; border: 1px solid #FFC107; }
+.status-delivered { background: rgba(0, 255, 136, 0.2); color: var(--neon-green); border: 1px solid var(--neon-green); }
+.jid-display { font-family: monospace; word-break: break-all; background: #111; padding: 12px; border-radius: 8px; margin: 20px 0; }

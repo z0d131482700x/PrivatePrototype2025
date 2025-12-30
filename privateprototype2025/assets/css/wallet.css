@@ -1,0 +1,25 @@
+/* privateprototype2025/assets/css/wallet.css */
+.wallet-balance {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--neon-cyan), var(--neon-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.qr-container {
+    background: var(--bg-secondary);
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    position: relative;
+}
+.qr-container::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, var(--neon-green), var(--neon-magenta));
+    border-radius: 18px;
+    z-index: -1;
+}
