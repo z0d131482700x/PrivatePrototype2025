@@ -31,4 +31,4 @@ Production Ready: Battle-tested for demo and production deployment
 - ✗ No IP logging
 - ✗ No central servers
 
-## coded by @z0d131482700x
+## coded by Xer0TLabs x Persephrak Decentralized Syndicate
